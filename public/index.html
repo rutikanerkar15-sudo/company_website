@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions - Innovations & Services</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Tech<span>Solutions</span></a>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Sections -->
+    <main class="container main-content">
+
+        <!-- Home Section -->
+        <section id="home" class="page-view active">
+            <div class="hero">
+                <h1>Transforming Ideas Into Digital Reality</h1>
+                <p>We deliver cutting-edge technology solutions and high-performance software engineering tailored to fuel your business growth.</p>
+                <a href="#services" class="btn">Explore Services</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="page-view">
+            <h2>About Our Company</h2>
+            <p>At TechSolutions, we specialize in modern web technologies, backend API developments, and tailored technology architecture.</p>
+            <div class="about-grid">
+                <div class="card">
+                    <h3>Our Mission</h3>
+                    <p>To deliver scalable, modern, and reliable technology platforms that empower modern businesses globally.</p>
+                </div>
+                <div class="card">
+                    <h3>Our Vision</h3>
+                    <p>Pioneering future-proof digital solutions with a focus on code quality, performance, and seamless user experiences.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="page-view">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="card">
+                    <h3>Web Application Development</h3>
+                    <p>Responsive, robust, and single-page applications built using Node.js, Express, and modern frontend design.</p>
+                </div>
+                <div class="card">
+                    <h3>Backend & API Services</h3>
+                    <p>Custom RESTful API integration, database architecture, microservices, and server-side automation solutions.</p>
+                </div>
+                <div class="card">
+                    <h3>Custom Software Solutions</h3>
+                    <p>End-to-end Python development, web application maintenance, performance optimization, and bug fixing.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="page-view">
+            <h2>Contact Us</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Inquiry about project" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+                <div id="form-status" class="form-status"></div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 TechSolutions. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
